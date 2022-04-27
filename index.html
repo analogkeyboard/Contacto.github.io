@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--
+
+    
+    <script src=".\..\semantic-ui-files\jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href=".\..\semantic-ui-files\semantic.css">
+    <link rel="stylesheet" href="index.css">
+    <script src=".\..\semantic-ui-files\semantic.js"></script>
+    <meta charset="UTF-8">
+    <title>Document</title>
+	-->
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</head>
+
+<body>
+    <div class="ui fluid container">
+        <!--inicio menu-->
+        <div class="ui inverted big borderless labeled icon  menu">
+            <a href="" class="item">
+                <i class="ui home icon"></i>
+                Inicio
+            </a>
+            <a href="" class="item">
+                <i class="ui question icon"></i>
+                Preguntas Frecuentes
+            </a>
+            <a href="" class="item">
+                <i class="ui sitemap icon"></i>
+                Mapa del Sitio
+            </a>
+            <a href="" class="active item">
+                <i class="ui phone icon"></i>
+                Contacto
+            </a>
+            <div href="" class="ui inverted right dropdown item">
+                <i class="ui language icon"></i>
+                Lenguaje
+                <div class="menu">
+                    <div class="item">
+                        Español
+                    </div>
+                    <div class="item">
+                        Ingles
+                    </div>
+                    <div class="item">
+                        Braile
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--fin menu-->
+        <div class="ui inverted container segment">
+            <div class="ui equal width big form">
+                <div class="ui required inline field">
+                    <label for="" class="ui black label">Nombre</label>
+                    <input class="ui input" type="text" placeholder="Nombre...">
+                </div>
+                <div class="ui required inline field">
+                    <label for="" class="ui black label">Correo</label>
+                    <input class="ui input" type="email" placeholder="usuario@dominio.com">
+                </div>
+                <div class="ui  required field">
+                    <label for="" id="mensaje" class="ui black label">Mensaje</label>
+                    <textarea name="" placeholder="Mensaje..."></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui fluid container">
+        <div class="ui inverted big borderless bottom fixed labeled icon three item menu">
+            <a href="" class="item">
+                <i class="github icon"></i>
+            </a>
+            <a href="" class="item">
+                <i class="linkedin icon"></i>
+            </a>
+            <a href="" class="item">
+                <i class="instagram icon"></i>
+            </a>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $('.ui.dropdown.item').dropdown({
+        on: 'hover'
+    });
+    </script>
+</body>
+
+</html>
